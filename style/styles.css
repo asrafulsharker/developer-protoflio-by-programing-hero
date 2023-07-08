@@ -129,6 +129,20 @@ main{
     margin-top: -10px;
 }
 
+
+/* skilla section css  */
 #what-i-do-description{
     padding: 30px 150px;
+}
+
+
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+}
+
+.skills-description{
+
 }
