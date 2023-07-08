@@ -50,10 +50,14 @@ nav a{
 /* header related style */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
 .banner{
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
@@ -62,5 +66,13 @@ nav a{
     width: 500px;
 }
 
+.banner-greating{
+    font-size: 45px;
+    color: #474747;
+}
+.banner-title{
+    font-weight: 85px;
+    font-weight: 700;
+}
 /* header close */
 
