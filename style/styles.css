@@ -99,7 +99,7 @@ nav a {
 }
 
 .banner-title {
-    font-weight: 85px;
+    font-size: 60px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -184,9 +184,57 @@ font-weight: 700;
     color: #757575;
 
  }
-
+ .resume-item-description{
+    margin-bottom: 20px;
+    margin-top: 0px;
+ }
  .resume-item-title{
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 10px;
+ }
+
+ .resume-container hr{
+    margin: 30px;
+ }
+
+ .download-cv{
+    text-align: center;
+    margin-top: 50px;
+ }
+
+
+ /* footer section style */
+
+ footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    margin: 100px 0px 0px 0px;
+    gap: 100px;
+ }
+
+ .footer-column{
+    width: 50%;
+ }
+
+ .social-links a{
+    margin-right: 25px;
+ }
+
+ .contact input[type="text"],input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #474747;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%;
+ }
+ 
+
+ .footer_title, .footer-desc{
+    text-align: left;
  }
